@@ -1,0 +1,135 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "~/Documents/cute.txt",
+        "padding": {
+            "top": 2,
+            "right": 6
+        }
+    },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+	"break",
+	"break",
+	{
+            "type": "title",
+            "keyWidth": 10
+        },
+        "break",
+        {
+            "type": "os",
+            "key": " ",
+            "keyColor": "33",  // = color3
+        },
+
+	{
+            "type": "memory",
+            "key": "",
+            "keyColor": "33",  // = color3
+	},
+        {
+            "type": "kernel",
+            "key": " ",
+            "keyColor": "33",
+        },
+
+	{
+            "type": "packages",
+            "format": "{} (Portage)",
+            "key": " ",
+            "keyColor": "33",
+        },
+
+	{
+            "type": "wm",
+            "key": " ",
+            "keyColor": "33",
+        },
+
+	{ "type": "break", },
+
+
+        {
+            "type": "terminal",
+            "key": " ",
+            "keyColor": "33",
+        },
+
+	{ 
+	  "type": "terminalfont", 
+	  "key": "",
+	  "keyColor": "33",
+	},
+
+	{
+	  "type": "TerminalTheme", 
+	  "key": "", 
+	  "keyColor": "33"
+	},
+
+        {
+            "type": "shell",
+            "key": " ",
+            "keyColor": "33", 
+        },
+
+
+	{
+	"type": "theme",
+	"key": "",
+	"keyColor": "33",
+	},
+
+
+	{ "type": "break", },
+
+	{
+	    "type": "cpu",
+	    "key": "",
+	    "keyColor": "33",
+	},
+
+	{
+            "type": "tpm",
+	    "key": "",
+	    "keyColor": "33",
+	},
+	
+	{ 
+ 	    "type": "gpu", 
+	    "key": "", 
+	    "keyColor": "33", 
+	},
+
+
+        {
+            "type": "uptime",
+            "key": " ",
+            "keyColor": "33", 
+        },
+        {
+            "type": "media",
+            "key": "󰝚 ",
+            "keyColor": "33", 
+        },
+	"break",
+
+
+	 { "type": "Disk", "key": "", "keyColor": "33",  },
+
+	"break",
+	
+	{ 
+	    "type": "DateTime",
+	     "key": "󱛡",
+	     "keyColor": "33",
+	},
+	
+        "colors",
+	"break",
+        "break",
+    ]
+}
+
